@@ -10,7 +10,7 @@
     <link rel="apple-touch-icon" href="apple-touch-icon.png">
     <!-- Place favicon.ico in the root directory -->
 
-    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link rel=“stylesheet” href=“font-awesome-4.7.0/css/font-awesome.min.css”>
 
     <link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet">
 
@@ -24,25 +24,51 @@
       <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
 
+    <!--HEADER-->
+    <header>
+
+    <header>
+    <!--END OF HEADER-->
+
+    <!--SECTION-->
     <section class="contact">
       <h2>Nous contacter</h2>
-      <!--FORM-->
-      <form>
-        <input type="text" max="20" autofocus required placeholder="Votre Nom*"/>
-        <input type="text"max="30" required placeholder="Votre Prénom*"/>
-        <input type="tel" min="10" max="10" placeholder="Votre Téléphone"/>
-        <input type="email" max="30" required placeholder="Votre Email"/>
-        <input type="text" required placeholder="Votre Sujet*"/>
-        <textarea rows="5" cols=50" required></textarea>
-        <input type="submit" value="Envoyer"/>
-      </form>
-      <!--END OF FORM-->
+      <div class="contact_container">
+        <article class="form">
+          <!--FORM-->
+          <form>
+            <input class="ip" type="text" max="20" autofocus required placeholder="Votre Nom*"/>
+            <input class="ip" type="text"max="30" required placeholder="Votre Prénom*"/>
+            <input class="ip" type="tel" min="10" max="10" placeholder="Votre Téléphone"/>
+            <input class="ip" type="email" max="30" required placeholder="Votre Email"/>
+            <input class="ip" type="text" required placeholder="Votre Sujet*"/>
+            <textarea rows="5" cols=50" required></textarea>
+            <input class="ip" id="submit" type="submit" value="Envoyer"/>
+          </form>
+          <!--END OF FORM-->
+        </article>
 
-      <!--MAPS-->
-      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4277.006316508726!2d-74.0091806858604!3d40.71140814142118!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x6d57259b0ff8f167!2sWorld+Trade+Center!5e0!3m2!1sfr!2sfr!4v1491469997352" width="600" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
-      <!--END OF MAPS--> 
+        <article class="maps">
+          <!--MAPS-->
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4277.006316508726!2d-74.0091806858604!3d40.71140814142118!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x6d57259b0ff8f167!2sWorld+Trade+Center!5e0!3m2!1sfr!2sfr!4v1491469997352" width="300" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+          <!--END OF MAPS--> 
+        </article>
+      </div>
+    </section>
+    <!--END OF SECTION-->
 
-
+    <!--FOOTER-->
+    <footer>
+      <nav>
+        <ul>
+          <li><i class="fa fa-github-square" aria-hidden="true"></i></li>
+          <li><i class="fa fa-linkedin-square" aria-hidden="true"></i></li>
+          <li><i class="fa fa-twitter-square" aria-hidden="true"></i></li>
+          <li><i class="fa fa-facebook-square" aria-hidden="true"></i></li>
+        </ul>
+      </nav>
+    </footer>
+    <!--END OF FOOTER-->
 
     <!--JAVA-SCRIPT-->
     <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
