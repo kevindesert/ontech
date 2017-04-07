@@ -96,6 +96,72 @@ textarea {
    ========================================================================== */
 /*JULIE*/
 
+/*  MISE EN FORME DU MENU */
+header
+{
+  font-family: 'Poiret One';
+  background-color: black;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+nav
+{
+  width: 80%;
+}
+nav ul
+{
+  display: flex;
+  justify-content: flex-end;
+  list-style-type: none;
+  width: 100%;
+  margin-left: 8%;
+}
+nav li
+{
+  margin-right: 2%;
+  padding: 3%;
+}
+
+nav a
+{
+  color: white;
+  text-decoration: none;
+  border-radius: 20%;
+  border: .5px solid white;
+  padding-top: 10%;
+  padding-bottom: 10%;
+  padding: 8%;
+  box-sizing: border-box;
+
+}
+
+/* "on tech + agence design"*/
+.header
+{
+  margin-left: 10%;
+  margin-top: 20%;
+  border-left: 3px solid white;
+  padding-left: 3%;
+  font-size: 2em;
+  color: white;
+}
+
+.fa-chevron-down
+{
+  font-size: 3em;
+  text-align: center;
+  margin-left: 40%;
+  margin-right: 45%;
+  margin-top: 20%;
+  position: absolute;
+  color: white;
+}
+
+
 /*END OF JULIE*/
 
 
@@ -264,7 +330,7 @@ media (min-width: 1024px)
   /*AARON*/
 
 
-  /*END OF AARON*/  
+  /*END OF AARON*/
 }
 @media print,
        (-webkit-min-device-pixel-ratio: 1.25),
