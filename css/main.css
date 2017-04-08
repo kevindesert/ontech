@@ -100,7 +100,10 @@ textarea {
 
 
 /*KEVIN*/
-
+html
+{
+  font-family:"Tahoma";
+}
 /*END OF KEVIN*/
 
 
@@ -117,16 +120,18 @@ textarea {
 
 
 
-media (min-width: 768px)
-{
 
 
-}
 
-media (min-width: 1024px)
-{
 
-}
+
+
+
+
+
+
+
+
 
 
 
@@ -251,9 +256,26 @@ media (min-width: 1024px)
 
 
   /*KEVIN*/
+  .gallery
+  {
 
+    width: 100%;
+    margin:auto;
+  }
+  .gallery figure
+  {
 
+    width: 100%
+  }
+  .gallery img
+  {
 
+    width: 50%;
+  }
+  .gallery button
+  {
+    margin-left: 11em;
+  }
 
   /*END OF KEVIN*/
 
@@ -264,7 +286,7 @@ media (min-width: 1024px)
   /*AARON*/
 
 
-  /*END OF AARON*/  
+  /*END OF AARON*/
 }
 @media print,
        (-webkit-min-device-pixel-ratio: 1.25),
