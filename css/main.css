@@ -107,12 +107,17 @@ textarea {
 
 
 /*KEVIN*/
-
 html {
     font-family: 'Poiret One', cursive;
 }
 
+.rea {
+    background-color: #B0E0E6;
+}
 
+.gallery {
+    display: none;
+}
 /*END OF KEVIN*/
 
 
@@ -213,27 +218,39 @@ html {
     /*JULIE*/
     /*END OF JULIE*/
     /*KEVIN*/
-
-    .rea
-    {
-      background-color: #B0E0E6;
+    .realisation {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
     }
-    .realisation
-    {
-      text-align: center;
-      display: flex;
-      flex-direction: column;
+    .gallery {
+        display: flex;
+        justify-content: center;
     }
-.gallery
-{
-  display: flex;
-  justify-content:center;
-}
-
-.gallery button {
-    margin-left: 9em;
-}
-  /*END OF KEVIN*/
+    .gallery button {
+        margin-left: 9em;
+    }
+    /*prestation*/
+    .tarif {
+        margin-top: 2em;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .tarif article {
+        width: 30%;
+        text-align: center;
+    }
+    .tarif i {
+        color: white;
+    }
+    .tarif h4 {
+        text-decoration: underline;
+    }
+    .tarif p {
+        width: 90%;
+    }
+    /*END OF KEVIN*/
     /*AARON*/
     /*END OF AARON*/
 }
@@ -242,7 +259,6 @@ html {
     /*JULIE*/
     /*END OF JULIE*/
     /*KEVIN*/
-
     /*Section realisation*/
     .realisation {
         width: 50%;
@@ -255,7 +271,6 @@ html {
         display: flex;
         flex-direction: column;
         justify-content: center;
-
     }
     .gallery {
         width: 100%;
@@ -275,17 +290,30 @@ html {
         opacity: 0.5;
         filter: alpha(opacity=50);
     }
-
     /*end of the Gallery déroulante*/
-/*prestation*/
-.tarif i
-{
-  width: 200px;
-  height: 100px;
-}
 
 
 
+    /*prestation*/
+    .tarif {
+        margin-top: 2em;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .tarif article {
+        width: 30%;
+        text-align: center;
+    }
+    .tarif i {
+        color: black;
+    }
+    .tarif h4 {
+        text-decoration: underline;
+    }
+    .tarif p {
+        width: 90%;
+    }
     /*END OF KEVIN*/
     /*AARON*/
     /*END OF AARON*/
