@@ -255,6 +255,7 @@ html {
         display: flex;
         flex-direction: column;
         justify-content: center;
+
     }
     .gallery {
         width: 100%;
@@ -274,7 +275,17 @@ html {
         opacity: 0.5;
         filter: alpha(opacity=50);
     }
+
     /*end of the Gallery déroulante*/
+/*prestation*/
+.tarif i
+{
+  width: 200px;
+  height: 100px;
+}
+
+
+
     /*END OF KEVIN*/
     /*AARON*/
     /*END OF AARON*/
