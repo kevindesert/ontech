@@ -100,12 +100,12 @@ textarea {
 header
 {
   font-family: 'Poiret One';
-  background-color: black;
-  height: 100%;
-  position: absolute;
-  top: 0;
+  background-color: #B0E0E6;
+  height: 100vh;
+  margin-top: 0;
   left: 0;
   width: 100%;
+  padding-top: 1em;
 }
 
 nav
@@ -118,7 +118,8 @@ nav ul
   justify-content: flex-end;
   list-style-type: none;
   width: 100%;
-  margin-left: 8%;
+  margin-top: 0;
+
 }
 nav li
 {
@@ -144,25 +145,53 @@ nav a
 {
   margin-left: 10%;
   margin-top: 20%;
-  border-left: 3px solid white;
+  border-left: 3px solid black;
   padding-left: 3%;
   font-size: 2em;
-  color: white;
+  color: black;
 }
 
 .fa-chevron-down
 {
   font-size: 3em;
   text-align: center;
-  margin-left: 40%;
+  margin-left: 45%;
   margin-right: 45%;
-  margin-top: 20%;
   position: absolute;
   color: white;
-
+  bottom: 0;
 }
 
+/* --------------- PAGE TEAM ---------------- */
+.team
+{
+  font-family: 'Poiret One';
+  font-size: 1.2em;
+  display: flex;
+  flex-wrap: wrap;
+}
 
+/* Reglage photo ligne 1 et la ligne 2*/
+
+.mobile .haut figure img, .mobile .bas figure img
+
+{
+  border-radius: 100%;
+  border: 2px solid black;
+  width: 70%;
+}
+
+.mobile .bas, .mobile .haut
+{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.tablette
+{
+  display: none;
+}
 /*END OF JULIE*/
 
 
@@ -184,21 +213,24 @@ nav a
     background-image: url(../img/header.jpg);
     width: 100vw;
     height: 100vh;
+    margin-top: 0;
   }
 
 .fa-chevron-down
   {
-    margin-top: 2.5em;
     color: white;
     margin-left: 47%;
+    position: absolute;
+    bottom: 0;
   }
+
   /* Changement de la couleur du menu */
-header ul, nav ul
+header ul
 {
   margin-left: 15%;
 }
 
-  header nav a, .team nav a
+  header nav a
   {
     font-size: 1.2em;
     color: black;
@@ -208,73 +240,48 @@ header ul, nav ul
   .header
   {
     margin-left: 15%;
-    margin-top: 2.5em;
     font-size: 2.5em;
     line-height: 1.5em;
+    color: white;
+    border-left: 4px solid white;
+    margin-top: 10%;
   }
 
-  .team
-  {
-    margin-top: 100vh;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-  }
-
-  .team article, .team p, .team h2
-  {
-    margin: auto;
-  }
-
-  /*.team article {
-    transform: rotate(45deg);
-    border: 2px solid black;
-    margin-top: 12em;
+/* -------- PAGE TEAM --------- */
+.mobile
+{
+  display: none;
 }
 
-.team p
+.tablette
 {
-  transform: rotate(-45deg);
-
-}
-.team article img
-{
-  transform: rotate(-45deg);
-  width: 10%;
-  height: 10%;
-}*/
-
-.aaron a, .kevin a, .julie a
-{
-  transform: rotate(45deg);
-  width: 200px;
-  height: 200px;
-  overflow: hidden;
-  display: block;
-  margin: auto;
+  display: flex;
+  width: 95%;
+  margin-left: 2.5%;
 }
 
-.team a figure
+.tablette .haut
 {
-  transform: rotate(45deg);
-}
-img
-{
-  width: 100;
-  height: 120%;
-  transform: rotate(-45deg);
-  margin-left: 2em;
-}
-.aaron p, .kevin p, .julie p
-{
-  margin: 5em;
+  display: flex;
+  align-items: center;
+  margin-left: 2.5%;
 }
 
-.team article
+/* Reglage photo ligne 1 */
+.tablette figure img
 {
-  display: inline-flex;
-  flex-direction: row;
-  margin-top: 5em;
+  border-radius: 100%;
+  border: 2px solid black;
+  width: 95%;
+}
+
+.tablette .bas
+{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-left: 32%;
+  width: 35%;
 }
 
 
