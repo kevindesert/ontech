@@ -122,8 +122,15 @@ html {
 
 
 /*AARON*/
-
-
+footer nav
+{
+  display: flex;
+  justify-content: space-around;
+}
+footer i
+{
+  font-size: 10px;
+}
 /*END OF AARON*/
 
 
