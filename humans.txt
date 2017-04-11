@@ -3,11 +3,13 @@
 
 # TEAM
 
-    <name> -- <role> -- <twitter>
+    <name>Kevin -- <twitter> --
 
 # THANKS
 
-    <name>
+    <name>Aaron -- <Twitter>@Noraa_RB
+
+    <name>Julie -- <twitter> --
 
 # TECHNOLOGY COLOPHON
 
