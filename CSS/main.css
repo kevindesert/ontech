@@ -176,7 +176,11 @@ nav a
   display: flex;
   flex-wrap: wrap;
 }
-
+/* Reglage du titre des photos */
+h4
+{
+  font-weight: normal;
+}
 /* Reglage photo ligne 1 et la ligne 2*/
 
 .mobile .haut figure img, .mobile .bas figure img
@@ -250,6 +254,7 @@ footer i
 input
 {
   margin-top: 1em;
+  border: 3px solid #B0E0E6;
 }
 /*END OF AARON*/
 
