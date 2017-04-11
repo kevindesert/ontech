@@ -242,15 +242,6 @@ html {
   margin-left: 3em;
 }
 
-footer nav
-{
-  display: flex;
-  justify-content: space-around;
-}
-footer i
-{
-  font-size: 10px;
-}
 input
 {
   margin-top: 1em;
@@ -343,10 +334,7 @@ header ul
 /* Aaron */
 
 /*****PAGE CONTACT*****/
-.maps
-{
-  display: initial;
-}
+
 .contact
 {
   background-image: url(../img/contact.jpg);
@@ -360,7 +348,7 @@ header ul
   height: 300px;
 }
 
-.form, .maps
+.form
 {
   display: flex;
   justify-content: center;
@@ -387,11 +375,6 @@ header ul
 /*****END OF SECTION PAGE CONTACT*****/
 
 /*****FOOTER*****/
-footer nav figure
-{
-  display: inline-block;
-}
-
   iframe
   {
     width: 80%;
@@ -434,6 +417,11 @@ footer nav figure
   {
     display: flex;
     justify-content: space-around;
+  }
+  .maps
+  {
+    display: flex;
+    justify-content: center;
   }
   /*****END PAGE CONTACT*****/
 }
@@ -525,8 +513,12 @@ footer nav figure
    Modify as content requires.
    ========================================================================== */
 
-@media only screen and (min-width: 768px) {
 
+/*TABLETTE ET DESKTOP VERSION FOR KEVIN'S PART */
+
+
+
+@media only screen and (min-width: 768px) {
     /*KEVIN*/
     .realisation {
         text-align: center;
@@ -561,12 +553,9 @@ footer nav figure
         width: 90%;
     }
     /*END OF KEVIN*/
-
 }
 
 @media (min-width: 1024px) {
-    /*JULIE*/
-    /*END OF JULIE*/
     /*KEVIN*/
     /*Section realisation*/
     .realisation {
@@ -601,11 +590,6 @@ footer nav figure
     }
     /*end of the Gallery déroulante*/
 
-
-
-
-  /*END OF AARON*/
-
     /*prestation*/
     .tarif {
         margin-top: 2em;
@@ -627,10 +611,9 @@ footer nav figure
         width: 90%;
     }
     /*END OF KEVIN*/
-    /*AARON*/
-    /*END OF AARON*/
-}
 
+}
+/*TABLETTE ET DESKTOP VERSION FOR KEVIN'S PART */
 @media print, (-webkit-min-device-pixel-ratio: 1.25), (min-resolution: 1.25dppx), (min-resolution: 120dpi) {
     /* Style adjustments for high resolution devices */
 }
